@@ -14,3 +14,8 @@ int getPivot(int arr[],int n){
   }
   return s;
 }
+int main(){
+  int arr[5]={7,9,1,2,3};
+  cout<<"Index of pivot is :"<<getPivot(arr,5)<<endl;  //2
+  return 0;
+}
