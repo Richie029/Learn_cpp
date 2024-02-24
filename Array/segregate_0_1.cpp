@@ -21,3 +21,18 @@ void segregate0and1(int arr[], int n) {
         }
         
     }
+
+
+
+//Similar Approach
+while(start<end){
+        if(arr[start]==0){
+                start++;
+        }else{
+                if(arr[end]==0){
+                        swap(arr[start],arr[end]);
+                } else{
+                        end--;
+                }
+        }
+}
