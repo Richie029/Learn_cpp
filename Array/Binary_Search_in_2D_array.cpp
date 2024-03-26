@@ -1,4 +1,6 @@
- bool searchMatrix(vector<vector<int>>& matrix, int target) {
+// Approach ==> imagine like a 1D array !! 
+
+bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int N=matrix.size(),M=matrix[0].size();
         int start=0,end=(N*M)-1;
     while (start<=end) {
